@@ -1,0 +1,170 @@
+#header{
+    width:70rem ;
+    height: 8rem;
+    margin-left: 20rem;
+}
+#nav-samping-kiri{
+    background-color: #164863;
+    width: 20rem;
+    height: auto;
+    min-height: 40rem;
+    padding-bottom: 3rem;
+    float: left;
+    position: fixed;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border-radius: 0px 10px 10px 0px;
+    overflow: visible;
+}
+#container{
+    margin-left: 20rem;
+}
+#home-admin{
+    margin: 0rem 0rem 0rem 5rem;
+    padding: 2rem 0rem 1rem 0rem;
+    font-size: 3rem;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: #164863;
+}
+#jadwal{
+    width: 70rem;
+    height: auto;
+    min-height: 33rem;
+    background: linear-gradient(to right, #164863, #ffffff);
+    margin: 2rem 0rem 0rem 2rem;
+    padding: 2rem;
+    border-radius: 10px;
+}
+#FotoProfilNav{
+    width: 5rem;
+    height: 5rem;
+    margin: 3rem auto 0rem auto;
+    border-radius: 100%;
+}
+.btnnav{
+    font-family: 'Montserrat';
+    text-align: center;
+    font-size: 1rem;
+    margin: 2rem auto 0rem auto;
+    font-weight: bold;
+    color: #ffffff;
+    width: 80%;
+    padding: 0.5rem 0rem;
+}
+.btnnav:hover{
+    background-color: #4692ba ;
+    border-radius: 10rem;
+}
+.click{
+    background-color: #4692ba ;
+    border-radius: 10rem;
+    color: #042b3f;
+}
+.opt{
+    background-color: #4692ba ;
+    border-radius: 10rem;
+    color: #ffffff;
+}
+#namaprofil{
+    margin: 1rem auto 2rem auto;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+}
+#filter-sesi{
+    margin: 0rem 0rem 0rem 2rem ;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: visible;
+    display: block;
+    padding: 3rem 0rem 3rem 3rem;
+    width: 70rem;
+    position: relative;
+    border: 1px solid #164863;
+    border-radius: 10px;
+}
+#btnSortir{
+    border: 1px solid #164863;
+    background-color: #164863;
+    color: #ffffff;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 1;   
+    top: 5.3rem;
+    left: 26rem;
+    padding: 0.5rem;
+}
+select{
+    width: 15rem;
+    border: 1px solid #164863;
+    border-radius: 10px;
+    color: #ffffff;
+}
+#content-sesi{
+    background-color: #164863;
+    color: #ffffff;
+    padding: 1rem 3rem 1rem 1rem;
+    margin: 1rem 0rem 0rem 2rem ;
+    width: 70rem;
+    height: auto;
+    min-height: 18.5rem;
+    overflow: visible;
+    display: block;
+    border-radius: 10px;
+}
+#table_sesi{
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 15px;
+    font-size: 10px;
+    width: 68rem;
+    color: #164863;
+}
+#table_sesi tr td{
+    padding: 1rem 1rem 1rem 1rem;
+
+}
+#table_sesi tr{
+    border: 1px solid #164863;
+}
+.btnEdit, .btnHapus{
+    border: 2px solid #4692ba;
+    border-radius: 5px;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+#content-edit{
+    font-family: "Montserrat";
+    margin: 0rem 0rem 0rem 2rem ;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: visible;
+    display: block;
+    padding: 3rem 0rem 3rem 3rem;
+    width: 70rem;
+    position: relative;
+    border: 1px solid #164863;
+    border-radius: 10px;
+}
+.input{
+    border: 1px solid #164863;
+    border-radius: 10px;
+    width: 20rem;
+}
+.lbl{
+    margin: 0rem 3rem 0rem 1rem;
+}
+#table-edit tr td{
+    padding: 0.5rem 2rem 0.5rem 2rem;
+}
+#btnSimpan, #btnBatal{
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    padding: 0.3rem 1rem 0.3rem 1rem;
+}
+#btnSimpan{
+    background-color: #02ff1b;
+}
+#btnBatal{
+    background-color: #ff1702;
+}

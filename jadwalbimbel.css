@@ -1,0 +1,171 @@
+#header{
+    width:70rem ;
+    height: 8rem;
+    margin-left: 20rem;
+}
+#nav-samping-kiri{
+    background-color: #164863;
+    width: 20rem;
+    height: auto;
+    min-height: 40rem;
+    padding-bottom: 3rem;
+    float: left;
+    position: fixed;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border-radius: 0px 10px 10px 0px;
+    overflow: visible;
+}
+#container{
+    margin-left: 20rem;
+}
+#home-admin{
+    margin: 0rem 0rem 0rem 5rem;
+    padding: 2rem 0rem 1rem 0rem;
+    font-size: 3rem;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: #164863;
+}
+#jadwal{
+    width: 70rem;
+    height: auto;
+    min-height: 33rem;
+    background: linear-gradient(to right, #164863, #ffffff);
+    margin: 2rem 0rem 0rem 2rem;
+    padding: 2rem;
+    border-radius: 10px;
+}
+#FotoProfilNav{
+    width: 5rem;
+    height: 5rem;
+    margin: 3rem auto 0rem auto;
+    border-radius: 100%;
+}
+.btnnav{
+    font-family: 'Montserrat';
+    text-align: center;
+    font-size: 1rem;
+    margin: 2rem auto 0rem auto;
+    font-weight: bold;
+    color: #ffffff;
+    width: 80%;
+    padding: 0.5rem 0rem;
+}
+.btnnav:hover{
+    background-color: #4692ba ;
+    border-radius: 10rem;
+}
+.click{
+    background-color: #4692ba ;
+    border-radius: 10rem;
+    color: #042b3f;
+}
+.opt{
+    background-color: #4692ba ;
+    border-radius: 10rem;
+    color: #ffffff;
+}
+#namaprofil{
+    margin: 1rem auto 2rem auto;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+}
+#hari_tanggal{
+    font-weight: bold;
+    font-family: 'Montserrat';
+    margin: 0rem 0rem 1rem 0rem;
+    color: #ffffff;
+}
+#sesi_jadwal{
+    font-family: 'Montserrat';
+    color: #ffffff;
+    margin: 0rem 0rem 1rem 0rem;
+}
+#filter_tugas{
+    margin: 2rem 0rem 0rem 2rem;
+    border-radius: 10px;
+    background-color: #164863;
+    width: 70rem;
+    height: auto;
+    min-height: 10rem;
+    padding: 2rem;
+    overflow: visible;
+    display: block;
+}
+#txtKelas{
+    color: #ffffff;
+}
+#txtMataPelajaran{
+    color: #ffffff;
+}
+#cb_kelas_siswa{
+    width: 15rem;
+}
+#cb_matpel_siswa{
+    width: 15rem;
+}
+#content_border{
+    width: 70rem;
+    min-height: 20rem;
+    height: auto;
+    background-color: #ffffff;
+    margin: 2rem 0rem 0rem 2rem;
+    border-radius: 10px;
+    padding: 2rem;
+}
+#content_tugas{
+    background-color: #ffffff;
+    font-family: 'Montserrat';
+    width: 62rem;
+}
+#table_tugas{
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 15px;
+    font-size: 10px;
+    width: 66rem;
+}
+#table_tugas tr td{
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 15px;
+}
+#table_tugas tr{
+    border-radius: 15px;
+    border: 1px solid #164863;
+}
+#btnTambahJadwal{
+    color: #042b3f;
+    border: 2px solid #4692ba;
+    background-color: #ffffff;
+    border-radius: 2px;
+    padding: 0rem 1rem 0rem 1rem;
+    float: right;
+}
+#btnDetailSiswa, #btnHapus, #btnCari{
+    border: 2px solid #4692ba;
+    border-radius: 5px;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+#btnBatal, #btnSimpanTugas{
+    color: #042b3f;
+    border: 2px solid #4692ba;
+    background-color: #ffffff;
+    border-radius: 2px;
+    padding: 0rem 1rem 0rem 1rem;
+    float: right;
+    
+}
+#btnSimpanTugas{
+    margin: 0px 20px 0px 0px;
+}
+#btnCari{   
+    float: left;
+    color: #042b3f;
+    border: 2px solid #4692ba;
+    background-color: #ffffff;
+    border-radius: 2px;
+    padding: 0rem 1rem 0rem 1rem;
+}
